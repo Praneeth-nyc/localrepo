@@ -8,7 +8,7 @@ def multiplication(a,b):
 def division(a,b):
 	print(f"division of {a} and {b} is {a/b}")
 
-def subtrction(a,b):
+def subtraction(a,b):
 	print(f"difference between {a} and {b} is {a-b}")
 
 
