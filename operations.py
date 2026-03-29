@@ -8,6 +8,9 @@ def multiplication(a,b):
 def division(a,b):
 	print(f"division of {a} and {b} is {a/b}")
 
+def subtrction(a,b):
+	print(f"difference between {a} and {b} is {a-b}")
+
 
 print("1.add\n2.subtract\n3.multiply\n4.division\n5.exit\n")
 choice=int(input("Enter  choice :"))
@@ -24,4 +27,3 @@ while(True):
 		exit
 	else:
 		print("Invalid Entry")
-
