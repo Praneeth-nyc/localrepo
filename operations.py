@@ -5,6 +5,10 @@ print(f"addition of {a} and {b} is {a+b}")
 def multiplication(a,b):
 	print(f"product of {a} and {b} is {a+b}")
 
+def division(a,b):
+	print(f"division of {a} and {b} is {a/b}")
+
+
 print("1.add\n2.subtract\n3.multiply\n4.division\n5.exit\n")
 choice=int(input("Enter  choice :"))
 while(True):
@@ -20,3 +24,4 @@ while(True):
 		exit
 	else:
 		print("Invalid Entry")
+
